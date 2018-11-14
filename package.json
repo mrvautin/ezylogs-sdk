@@ -1,0 +1,30 @@
+{
+  "name": "ezylogs",
+  "version": "1.0.2",
+  "description": "A simple and affordable remote log viewer, monitoring and health check service",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "mrvautin",
+  "license": "MIT",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/mrvautin/ezylogs-sdk.git"
+  },
+  "keywords": [
+    "ezylogs",
+    "monitoring",
+    "logs",
+    "health",
+    "checks",
+    "logging"
+  ],
+  "dependencies": {
+    "axios": "^0.18.0",
+    "cpu-percentage": "^1.0.3",
+    "current-processes": "^0.2.1",
+    "pidusage": "^2.0.17",
+    "sync-request": "^6.0.0"
+  }
+}
