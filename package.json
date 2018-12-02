@@ -1,16 +1,16 @@
 {
   "name": "ezylogs",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "An affordable and easy to use remote Node.js log viewer, server/process monitor and website health check service.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test"
   },
   "author": "mrvautin",
   "license": "MIT",
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/mrvautin/ezylogs-sdk.git"
+    "type": "git",
+    "url": "https://github.com/mrvautin/ezylogs-sdk-node.git"
   },
   "keywords": [
     "ezylogs",
@@ -21,7 +21,8 @@
     "logging",
     "logger",
     "server",
-    "management"
+    "management",
+    "sdk"
   ],
   "dependencies": {
     "axios": "^0.18.0",

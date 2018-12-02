@@ -65,8 +65,7 @@ async function sendUpMonitoring() {
         axios.post(`${server}/monitor`, {
             apiKey: configuration.apiKey, 
             system: configuration.system,
-            data: content, 
-            timestamp: new Date()
+            data: content
         })
         .catch(() => {
             console.log('err');
@@ -80,8 +79,7 @@ function sendUp(content, level){
             apiKey: configuration.apiKey, 
             system: configuration.system,
             data: content, 
-            level: level,
-            timestamp: new Date()
+            level: level
         })
         .catch(() => {
             console.log('err');
